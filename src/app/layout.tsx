@@ -1,8 +1,8 @@
 import 'styles/globals.scss';
 import 'styles/main.scss';
-import Header from 'components/Header';
-import MainNav from 'components/MainNav';
-import Footer from 'components/Footer';
+import Header from '../components/Header';
+import MainNav from '../components/MainNav';
+import Footer from '../components/Footer';
 
 export default function RootLayout({
   children,
