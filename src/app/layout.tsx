@@ -3,6 +3,7 @@ import 'styles/main.scss';
 import Header from '../components/Header';
 import MainNav from '../components/MainNav';
 import Footer from '../components/Footer';
+import Aside from '../components/Aside';
 
 export default function RootLayout({
   children,
@@ -21,6 +22,7 @@ export default function RootLayout({
           <Header />
           <MainNav />
         </header>
+        <Aside />
         <main>{children}</main>
         <footer>
           <Footer />

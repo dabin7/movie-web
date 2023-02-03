@@ -2,6 +2,7 @@
   position: relative;
   padding-top: 120px;
   padding-bottom: 60px;
+  overflow: hidden;
 }
 
 .ranking {
@@ -9,18 +10,21 @@
   flex-direction: column;
   justify-content: center;
   height: 500px;
+  width: 100vw;
   background-color: rgb(7, 7, 7);
-  padding: 40px 0 40px 400px;
+  padding: 40px 0 40px 420px;
 }
 
 .title {
   font-size: 20px;
   padding-bottom: 30px;
   color: aliceblue;
+  font-weight: bold;
 }
 
 .product-image {
   img {
+    border-radius: 3px;
     width: 240px;
     height: 340px;
     object-fit: cover;
@@ -46,13 +50,21 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
-  padding: 60px 0 40px 400px;
+  padding: 60px 0 40px 420px;
 }
 
 .content-list {
   display: flex;
+}
+.product-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  margin-right: 20px;
+  transition: all 0.1s ease-in;
 
-  .product-item {
-    margin-right: 20px;
+  &:hover {
+    top: -3px;
   }
 }
