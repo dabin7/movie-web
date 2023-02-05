@@ -1,7 +1,7 @@
 import 'styles/globals.scss';
 import 'styles/main.scss';
 import Header from '../components/Header';
-import MainNav from '../components/MainNav';
+import MainNav from '../components/MainNav/movie';
 import Footer from '../components/Footer';
 import Aside from '../components/Aside';
 
@@ -20,7 +20,6 @@ export default function RootLayout({
       <body>
         <header>
           <Header />
-          <MainNav />
         </header>
         <Aside />
         <main>{children}</main>

@@ -24,17 +24,17 @@ const Aside = () => {
           </div>
         </div>
         <div className='list-bar'>
-          <div>Title</div>
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
+          <div>Memo</div>
+          <div>
+            <input />
+          </div>
         </div>
         <div className='list-bar'>
-          <div>Title</div>
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
+          <div>Keywords</div>
+          <div>love</div>
+          <div>casino</div>
+          <div>soccer</div>
+          <div>book</div>
         </div>
       </div>
     </>

@@ -1,0 +1,16 @@
+.prepare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  width: 2000px;
+  height: 750px;
+  color: rgb(156, 156, 156);
+  background-color: rgb(7, 7, 7);
+
+  a {
+    margin-top: 8px;
+  }
+}

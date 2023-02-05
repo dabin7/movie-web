@@ -3,6 +3,8 @@
 import React from 'react';
 import ProductItem from '../components/Product-item';
 import Carousel from '../components/Carousel';
+import Arrow from '@mui/icons-material/ArrowForwardIos';
+import StarsIcon from '@mui/icons-material/Stars';
 
 const Page: any = () => {
   const ImgSliderData = [
@@ -84,7 +86,10 @@ const Page: any = () => {
       <div className='container'>
         <div className='ranking'>
           <div className='title'>
-            <h1>인기 순위</h1>
+            <h1>
+              <StarsIcon />
+              TOP 10
+            </h1>
           </div>
           <div className='carousel'>
             <Carousel ImgSliderData={ImgSliderData} />
@@ -95,30 +100,39 @@ const Page: any = () => {
           <div className='category-box'>
             <div className='title'>
               <h1>멜로 & 로맨스</h1>
+              <a href='/'>
+                전체보기 <Arrow sx={{ fontSize: 14 }} />
+              </a>
             </div>
             <div className='content-list'>
-              {ImgData.map((item) => (
-                <ProductItem image={item.src} title={item.title} />
+              {ImgData.map((item, index) => (
+                <ProductItem key={index} image={item.src} title={item.title} />
               ))}
             </div>
           </div>
           <div className='category-box'>
             <div className='title'>
               <h1>액션 & 스릴러</h1>
+              <a href='/'>
+                전체보기 <Arrow sx={{ fontSize: 14 }} />
+              </a>
             </div>
             <div className='content-list'>
-              {ImgData.map((item) => (
-                <ProductItem image={item.src} title={item.title} />
+              {ImgData.map((item, index) => (
+                <ProductItem key={index} image={item.src} title={item.title} />
               ))}
             </div>
           </div>
           <div className='category-box'>
             <div className='title'>
               <h1>애니메이션 극장판</h1>
+              <a href='/'>
+                전체보기 <Arrow sx={{ fontSize: 14 }} />
+              </a>
             </div>
             <div className='content-list'>
-              {ImgData.map((item) => (
-                <ProductItem image={item.src} title={item.title} />
+              {ImgData.map((item, index) => (
+                <ProductItem key={index} image={item.src} title={item.title} />
               ))}
             </div>
           </div>

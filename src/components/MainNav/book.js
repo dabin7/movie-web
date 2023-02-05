@@ -1,4 +1,6 @@
-import React from 'react';
+'use client';
+
+import React, { useState } from 'react';
 import Link from 'next/link';
 
 const MainNav = () => {
@@ -11,16 +13,16 @@ const MainNav = () => {
               <Link href='/movie'>Movie</Link>
             </li>
             <li>
-              <Link href='/'>Drama</Link>
+              <Link href='/drama'>Drama</Link>
             </li>
             <li>
-              <Link href='/'>Anime</Link>
+              <Link href='/preparing'>Anime</Link>
             </li>
             <li>
-              <Link href='/'>Music</Link>
+              <Link href='/preparing'>Music</Link>
             </li>
             <li>
-              <Link href='/'>Book</Link>
+              <Link href='/preparing'>Book</Link>
             </li>
           </ul>
         </nav>

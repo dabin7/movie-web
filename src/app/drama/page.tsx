@@ -5,81 +5,81 @@ import ProductItem from '../../components/Product-item';
 import Carousel from '../../components/Carousel';
 import Arrow from '@mui/icons-material/ArrowForwardIos';
 import StarsIcon from '@mui/icons-material/Stars';
-import MainNav from '../../components/MainNav/movie';
+import MainNav from '../../components/MainNav/drama';
 
-const Movie: any = () => {
+const Drama: any = () => {
   const ImgSliderData = [
     {
       id: 0,
-      title: '레옹',
-      src: 'https://upload.wikimedia.org/wikipedia/ko/7/77/%EB%A0%88%EC%98%B9_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg',
+      title: '이번생은 처음이라',
+      src: 'https://mblogthumb-phinf.pstatic.net/MjAxODA5MjFfNDIg/MDAxNTM3NDgzNDY1Njkx.vVD-8m_oLulcpMNzLYgnoNMPOjmIwqD0wOuG0ljJ1gEg.yxpPWWwcWrJ1UcOZvEYANffzzq5eAVx6Qyns5MzBeBgg.JPEG.pnp524/IMG_6036.jpg?type=w800',
     },
     {
       id: 1,
-      title: '조커',
-      src: 'http://t1.daumcdn.net/movie/0357a82b7226464b87072c0b8d2246b71567986846719',
+      title: '미생',
+      src: 'https://upload.wikimedia.org/wikipedia/ko/e/ef/%EB%AF%B8%EC%83%9D_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg',
     },
     {
       id: 2,
-      title: '어바웃타임',
-      src: 'https://w.namu.la/s/45540343663db139cc66f875ddf9a2b68c15b17cd5957e2cc6f436d37c3918d1902911c08209621b835480c23ae8bedee3e2a3681d397c1c7a4d8b3cf6acd80308f855f90ee7887ded74c9b915d144833a5fd3a241f82fae2b7db5f677a6036ae65361a6f9d22851aa2c5d31fa057ee3',
+      title: '나의 아저씨',
+      src: 'https://www.themoviedb.org/t/p/w220_and_h330_face/fZ2AzLy81wsAdG1E2QoL2P3caV7.jpg',
     },
     {
       id: 3,
-      title: '타짜',
-      src: 'http://garmuri.com/files/attach/images/169/989/064/3a390031441893a94be31154cc82c28c.jpeg',
+      title: '오징어게임',
+      src: 'https://spnimage.edaily.co.kr/images/Photo/files/NP/S/2021/09/PS21090200069.jpg',
     },
     {
       id: 4,
-      title: '라라랜드',
-      src: 'https://cdn-magazine.notefolio.net/files/03/17703-6044-23_cont',
+      title: '슬기로운 감빵생활',
+      src: 'https://www.themoviedb.org/t/p/original/4LiNzTqjQVM9PqB8h4Fadws5vAJ.jpg',
     },
     {
       id: 5,
-      title: '타짜',
-      src: 'http://garmuri.com/files/attach/images/169/989/064/3a390031441893a94be31154cc82c28c.jpeg',
+      title: '미생',
+      src: 'https://upload.wikimedia.org/wikipedia/ko/e/ef/%EB%AF%B8%EC%83%9D_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg',
     },
     {
       id: 6,
-      title: '라라랜드',
-      src: 'https://cdn-magazine.notefolio.net/files/03/17703-6044-23_cont',
+      title: '나의 아저씨',
+      src: 'https://www.themoviedb.org/t/p/w220_and_h330_face/fZ2AzLy81wsAdG1E2QoL2P3caV7.jpg',
     },
     {
       id: 7,
-      title: '조커',
-      src: 'http://t1.daumcdn.net/movie/0357a82b7226464b87072c0b8d2246b71567986846719',
+      title: '슬기로운 감빵생활',
+      src: 'https://www.themoviedb.org/t/p/original/4LiNzTqjQVM9PqB8h4Fadws5vAJ.jpg',
     },
     {
       id: 8,
-      title: '타짜',
-      src: 'http://garmuri.com/files/attach/images/169/989/064/3a390031441893a94be31154cc82c28c.jpeg',
+      title: '오징어게임',
+      src: 'https://spnimage.edaily.co.kr/images/Photo/files/NP/S/2021/09/PS21090200069.jpg',
     },
   ];
   const ImgData = [
     {
       id: 0,
-      title: '라라랜드',
-      src: 'https://cdn-magazine.notefolio.net/files/03/17703-6044-23_cont',
+      title: '슬기로운 감빵생활',
+      src: 'https://www.themoviedb.org/t/p/original/4LiNzTqjQVM9PqB8h4Fadws5vAJ.jpg',
     },
     {
       id: 1,
-      title: '조커',
-      src: 'http://t1.daumcdn.net/movie/0357a82b7226464b87072c0b8d2246b71567986846719',
+      title: '미생',
+      src: 'https://upload.wikimedia.org/wikipedia/ko/e/ef/%EB%AF%B8%EC%83%9D_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg',
     },
     {
       id: 2,
-      title: '타짜',
-      src: 'http://garmuri.com/files/attach/images/169/989/064/3a390031441893a94be31154cc82c28c.jpeg',
+      title: '오징어게임',
+      src: 'https://spnimage.edaily.co.kr/images/Photo/files/NP/S/2021/09/PS21090200069.jpg',
     },
     {
       id: 3,
-      title: '라라랜드',
-      src: 'https://cdn-magazine.notefolio.net/files/03/17703-6044-23_cont',
+      title: '이번생은 처음이라',
+      src: 'https://mblogthumb-phinf.pstatic.net/MjAxODA5MjFfNDIg/MDAxNTM3NDgzNDY1Njkx.vVD-8m_oLulcpMNzLYgnoNMPOjmIwqD0wOuG0ljJ1gEg.yxpPWWwcWrJ1UcOZvEYANffzzq5eAVx6Qyns5MzBeBgg.JPEG.pnp524/IMG_6036.jpg?type=w800',
     },
     {
       id: 4,
-      title: '조커',
-      src: 'http://t1.daumcdn.net/movie/0357a82b7226464b87072c0b8d2246b71567986846719',
+      title: '나의 아저씨',
+      src: 'https://www.themoviedb.org/t/p/w220_and_h330_face/fZ2AzLy81wsAdG1E2QoL2P3caV7.jpg',
     },
   ];
   return (
@@ -127,7 +127,7 @@ const Movie: any = () => {
           </div>
           <div className='category-box'>
             <div className='title'>
-              <h1>애니메이션 극장판</h1>
+              <h1>넷플릭스</h1>
               <a href='/'>
                 전체보기 <Arrow sx={{ fontSize: 14 }} />
               </a>
@@ -144,4 +144,4 @@ const Movie: any = () => {
   );
 };
 
-export default Movie;
+export default Drama;
