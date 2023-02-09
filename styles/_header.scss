@@ -17,7 +17,12 @@ header {
 
 .login {
   display: flex;
+  align-items: center;
   margin-right: 40px;
+  a {
+    color: white;
+    margin-right: 20px;
+  }
 
   button {
     display: flex;
@@ -27,6 +32,7 @@ header {
     padding: 8px 15px;
     border: none;
     color: rgb(196, 196, 196);
+    width: 82px;
   }
 }
 
@@ -35,6 +41,7 @@ header {
   font-size: 40px;
   font-weight: bold;
   margin-left: 950px;
+  margin-right: 300px;
   color: azure;
   flex-grow: 1;
   a {

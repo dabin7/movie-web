@@ -5,6 +5,7 @@ import ProductItem from '../components/Product-item';
 import Carousel from '../components/Carousel';
 import Arrow from '@mui/icons-material/ArrowForwardIos';
 import StarsIcon from '@mui/icons-material/Stars';
+import MainNav from '@/components/MainNav/movie';
 
 const Page: any = () => {
   const ImgSliderData = [
@@ -84,6 +85,7 @@ const Page: any = () => {
   return (
     <>
       <div className='container'>
+        <MainNav />
         <div className='ranking'>
           <div className='title'>
             <h1>

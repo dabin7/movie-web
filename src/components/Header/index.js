@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Login from '../Login';
 
 const Header = () => {
   return (
@@ -9,9 +10,7 @@ const Header = () => {
           <Link href='/'>Recom</Link>
         </div>
         <div className='login'>
-          <form>
-            <button>로그인</button>
-          </form>
+          <Login />
         </div>
       </div>
     </>
