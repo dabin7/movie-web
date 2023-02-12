@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import SearchIcon from '@mui/icons-material/Search';
 
 const MainNav = () => {
   return (
@@ -33,7 +34,9 @@ const MainNav = () => {
         <div className='search'>
           <form>
             <input></input>
-            <button>검색</button>
+            <button>
+              <SearchIcon />
+            </button>
           </form>
         </div>
       </div>

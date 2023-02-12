@@ -20,7 +20,7 @@ const Aside = () => {
           </div>
           <div>
             <ListAltIcon />
-            <a>시청 기록</a>
+            <a>방문 기록</a>
           </div>
         </div>
         <div className='list-bar'>

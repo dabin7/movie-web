@@ -5,3 +5,16 @@
 button {
   cursor: pointer;
 }
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: rgba(218, 0, 0, 0.7);
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(244, 33, 33, 0.1);
+}

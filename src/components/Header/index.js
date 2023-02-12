@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <div className='header'>
         <div className='recom'>
-          <Link href='/'>Recom</Link>
+          <Link href='/'>Re.com</Link>
         </div>
         <div className='login'>
           <Login />
