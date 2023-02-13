@@ -13,7 +13,7 @@ const Carousel = ({ ImgSliderData }) => {
     <>
       <Swiper
         spaceBetween={0}
-        slidesPerView={5}
+        slidesPerView={4}
         pagination={{
           clickable: true,
         }}

@@ -7,7 +7,7 @@ const Login: NextPage = () => {
   if (session) {
     return (
       <>
-        <a>User : {session.user.name}</a>
+        <a>User - {session.user.name}</a>
         <button onClick={() => signOut()}>로그아웃</button>
       </>
     );

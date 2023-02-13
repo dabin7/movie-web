@@ -4,15 +4,14 @@ import React from 'react';
 import ProductItem from '../components/Product-item';
 import Carousel from '../components/Carousel';
 import Arrow from '@mui/icons-material/ArrowForwardIos';
-import StarsIcon from '@mui/icons-material/Stars';
 import MainNav from '@/components/MainNav/movie';
 
 const Page: any = () => {
   const ImgSliderData = [
     {
       id: 0,
-      title: '레옹',
-      src: 'https://upload.wikimedia.org/wikipedia/ko/7/77/%EB%A0%88%EC%98%B9_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg',
+      title: '라라랜드',
+      src: 'https://cdn-magazine.notefolio.net/files/03/17703-6044-23_cont',
     },
     {
       id: 1,
@@ -21,8 +20,8 @@ const Page: any = () => {
     },
     {
       id: 2,
-      title: '어바웃타임',
-      src: 'https://w.namu.la/s/45540343663db139cc66f875ddf9a2b68c15b17cd5957e2cc6f436d37c3918d1902911c08209621b835480c23ae8bedee3e2a3681d397c1c7a4d8b3cf6acd80308f855f90ee7887ded74c9b915d144833a5fd3a241f82fae2b7db5f677a6036ae65361a6f9d22851aa2c5d31fa057ee3',
+      title: '레옹',
+      src: 'https://upload.wikimedia.org/wikipedia/ko/7/77/%EB%A0%88%EC%98%B9_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg',
     },
     {
       id: 3,
@@ -31,13 +30,13 @@ const Page: any = () => {
     },
     {
       id: 4,
-      title: '라라랜드',
-      src: 'https://cdn-magazine.notefolio.net/files/03/17703-6044-23_cont',
+      title: '어바웃타임',
+      src: 'https://w.namu.la/s/45540343663db139cc66f875ddf9a2b68c15b17cd5957e2cc6f436d37c3918d1902911c08209621b835480c23ae8bedee3e2a3681d397c1c7a4d8b3cf6acd80308f855f90ee7887ded74c9b915d144833a5fd3a241f82fae2b7db5f677a6036ae65361a6f9d22851aa2c5d31fa057ee3',
     },
     {
       id: 5,
-      title: '타짜',
-      src: 'http://garmuri.com/files/attach/images/169/989/064/3a390031441893a94be31154cc82c28c.jpeg',
+      title: '레옹',
+      src: 'https://upload.wikimedia.org/wikipedia/ko/7/77/%EB%A0%88%EC%98%B9_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg',
     },
     {
       id: 6,
@@ -63,8 +62,8 @@ const Page: any = () => {
     },
     {
       id: 1,
-      title: '조커',
-      src: 'http://t1.daumcdn.net/movie/0357a82b7226464b87072c0b8d2246b71567986846719',
+      title: '어바웃타임',
+      src: 'https://w.namu.la/s/45540343663db139cc66f875ddf9a2b68c15b17cd5957e2cc6f436d37c3918d1902911c08209621b835480c23ae8bedee3e2a3681d397c1c7a4d8b3cf6acd80308f855f90ee7887ded74c9b915d144833a5fd3a241f82fae2b7db5f677a6036ae65361a6f9d22851aa2c5d31fa057ee3',
     },
     {
       id: 2,
@@ -73,8 +72,8 @@ const Page: any = () => {
     },
     {
       id: 3,
-      title: '라라랜드',
-      src: 'https://cdn-magazine.notefolio.net/files/03/17703-6044-23_cont',
+      title: '레옹',
+      src: 'https://upload.wikimedia.org/wikipedia/ko/7/77/%EB%A0%88%EC%98%B9_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg',
     },
     {
       id: 4,
@@ -88,10 +87,7 @@ const Page: any = () => {
         <MainNav />
         <div className='ranking'>
           <div className='title'>
-            <h1>
-              <StarsIcon />
-              TOP 10
-            </h1>
+            <h1>TOP 10</h1>
           </div>
           <div className='carousel'>
             <Carousel ImgSliderData={ImgSliderData} />

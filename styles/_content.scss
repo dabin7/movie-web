@@ -10,10 +10,28 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 550px;
+  height: 640px;
   width: 100vw;
-  background-color: rgb(12, 12, 12);
-  padding: 70px 0 20px 420px;
+  background-color: rgba(0, 0, 0);
+  padding: 75px 0 20px 255px;
+
+  .title {
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+
+  .product-image {
+    img {
+      border-radius: 0px;
+      width: 380px;
+      height: 540px;
+      object-fit: cover;
+    }
+  }
+
+  .product-description {
+    display: none;
+  }
 
   h1 {
     display: flex;
@@ -30,8 +48,7 @@
   align-items: flex-end;
   width: 1300px;
   font-size: 20px;
-  padding-bottom: 30px;
-  color: aliceblue;
+  color: rgb(233, 233, 233);
   font-weight: bold;
 
   a {
@@ -63,7 +80,7 @@
 }
 
 .swiper {
-  width: 1300px;
+  width: 1700px;
   overflow: hidden;
 }
 
@@ -72,8 +89,27 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
-  padding: 100px 0 100px 420px;
-  border-top: 1px solid rgb(37, 37, 37);
+  padding: 130px 0 130px 420px;
+  border-top: 1px solid rgb(22, 22, 22);
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1300px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: rgb(233, 233, 233);
+    font-weight: bold;
+
+    a {
+      display: flex;
+      margin-right: 20px;
+      font-weight: 400;
+      font-size: 14px;
+      color: rgb(100, 100, 100);
+      text-decoration: none;
+    }
+  }
 }
 
 .content-list {
